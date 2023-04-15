@@ -8,3 +8,8 @@ class Typescript {
     return `[${name}]: Typescript version is ${this.version}`;
   }
 }
+
+const language = new Typescript("19")
+
+language.info("typescript")
+
